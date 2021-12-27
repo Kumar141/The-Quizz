@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    scrollbar-width: thin;
+}
+
+.App {
+    background-image: url("./assests/question-mark-g732b03df0_1920.png");
+    background-position: -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 20px);
+}
